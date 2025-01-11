@@ -405,7 +405,6 @@ nav {
 .section__four_question {
     display: flex;
     width: 80%;
-    /* justify-content: center; */
     align-items: center;
     margin-left: 2rem;
     border-right: 1px solid gray;
@@ -440,9 +439,19 @@ button {
 
 
 /* section five(recent news)*/
+
+hr {
+    width: 20px;
+    height: 1px;
+    margin: 2.5rem auto;
+    color: #0E0E0E;
+    
+}
+
 .section__five {
     display: flex;
     justify-content: center;
+    /* margin-bottom: 5rem; */
 }
 
 .section__five_container {
@@ -452,6 +461,19 @@ button {
     flex-direction: column;
     justify-content: space-around;
     gap: 2rem;
+}
+
+.section__five_container_title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.section__five_container_para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: hsla(0, 0%, 5%, 0.7);
 }
 
 .sec__five_news_item {
@@ -490,3 +512,95 @@ button {
     line-height: 24px;
     color: hsla(0, 0%, 5%, 0.7);
 }
+
+.sec__five_cont_top .time {
+    display: flex;
+    gap: 1rem;
+}
+
+.sec__five_button .read__more_btn {
+    width: 139px;
+    height: 48px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sec__five_news__img img {
+    border-radius: 16px;
+}
+
+
+/* section six (donation) */
+.section__six {
+    display: flex;
+    justify-content: center;
+}
+
+.section__six_container {
+    width: 1280px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section__six_dontate_title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.section__six_dontate_para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    text-align: center;
+}
+
+.section__six_donate {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.donation__amount_box {
+    width: 252px;
+    height: 128px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation_amount_coloured {
+    background-color: #C6E4D6;
+}
+
+.sec_six_custom_donate input {
+    width: 1032px;
+    height: 64px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: none;
+}
+
+.donation_button .donation__done_button {
+    width: 151px;
+    height: 56px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
