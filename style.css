@@ -423,9 +423,7 @@ nav {
     margin-right: 2rem;
 }
 
-button {
-    font-size: inherit;
-}
+
 .section__four__drop_down button {
     background-color: hsla(153, 89%, 33%, 0.15);
     border: 1px solid #0E0E0E;
@@ -698,5 +696,94 @@ footer {
 .footer__social_links {
     display: flex;
     gap: 1.75rem;
+}
+
+/* hover effect for button and links */
+
+/* sign in button */
+.header__bar button:hover {
+    background-color: #e2e1e1;
+    font-size:medium;
+    transition: all, .3s;
+    cursor: pointer;
+}
+
+/* explore new bangladesh */
+
+.img__content_left button:hover {
+    background-color: #056d53e0;
+    font-size: medium;
+    cursor: pointer;
+    transition: all, .3s;
+}
+
+/* third section button */
+.blue_btn:hover {
+    background-color:#7da8f3;
+    font-size: medium;
+    cursor: pointer;
+    transition: all, .3s;
+}
+
+.green_btn:hover {
+    background-color:#3bbe83;
+    font-size: medium;
+    cursor: pointer;
+    transition: all, .3s;
+}
+
+.yellow_btn:hover {
+    background-color:#eccd82;
+    font-size: medium;
+    cursor: pointer;
+    transition: all, .3s;
+}
+
+/* read more button(recent news) */
+
+.read__more_btn:hover {
+    background-color: #139272;
+    font-size: medium;
+    cursor: pointer;
+    transition: all, .2s;
+}
+
+/* donate box */
+
+.donation__amount_box:hover {
+    background-color: #C6E4D6;
+    font-size: large;
+    transform: scale(1.1);
+    transition: all, .2s;
+}
+
+.sec_six_custom_donate input:hover {
+    background-color: #C6E4D6;
+    text-decoration: underline;
+    font-size:larger;
+    transform: scale(1.1);
+    transition: all, .2s;
+}
+
+.donation__done_button:hover {
+    background-color: #18886c;
+    font-size: large;
+    transform: scale(1.1);
+    transition: all, .2s;
+}
+
+/* newsletters button */
+
+.sec__seven_subs button:hover {
+    background-color: #00fa15;
+    font-size: large;
+    transform: scale(1.1);
+    transition: all, .2s;
+}
+
+.footer__social_links img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all, .2s;
 }
 
