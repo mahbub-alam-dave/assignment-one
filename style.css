@@ -327,8 +327,8 @@ nav {
 
 .sec_two_quote_first_para img {
     position: absolute;
-    top: -20px;
-    /* left: -5px; */
+    top: -25px;
+    left: -5px;
 }
 
 /* section four */
@@ -425,7 +425,7 @@ nav {
 
 
 .section__four__drop_down button {
-    background-color: hsla(153, 89%, 33%, 0.15);
+    background-color: rgba(9, 159, 92, 0.15);
     border: 1px solid #0E0E0E;
     border-radius: 8px;
     width: 152px;
@@ -739,6 +739,14 @@ footer {
     transition: all, .3s;
 }
 
+/* section four option button */
+.section__four__drop_down button:hover {
+    background-color: rgba(9, 159, 92, 0.1);
+    font-size: larger;
+    transform: scale(1.1);
+    transition: all, .2s;
+}
+
 /* read more button(recent news) */
 
 .read__more_btn:hover {
@@ -786,4 +794,6 @@ footer {
     transform: scale(1.2);
     transition: all, .2s;
 }
+
+
 
